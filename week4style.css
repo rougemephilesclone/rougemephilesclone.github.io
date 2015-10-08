@@ -1,0 +1,16 @@
+#boldGreen{color:green; font-weight:bold}
+
+.orange{color:orange}
+
+.redSuper{color:red; vertical-align:super}
+
+.purple{color:purple}
+
+.yellow{color:yellow; text-transform: uppercase; font-style: italic}
+
+.box{
+  margin: 20px 10% 20px 10%;
+  border: black 3px dashed;
+  padding: 10px 20% 10px 20%;
+}
+/*This is just a comment for CSS.  The alternate way for referring to margins and padding involves specifying top, right, bottom, left in that order.  Border is less defined.*/
