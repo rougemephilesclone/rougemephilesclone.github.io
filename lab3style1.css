@@ -1,0 +1,5 @@
+#navigation{position:absolute; width:100%; height:100px; background-color: red;}
+
+#content{position:absolute; top:100px; width:100%; height:500px; background-color: green;}
+
+#footer{position:absolute; top:600px; width:100%; background-color:blue;}

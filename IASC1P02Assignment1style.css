@@ -1,0 +1,9 @@
+.p1, .p3{color:green;}
+
+.p2, .p4{color:blue;}
+
+.p5, .p6{color:purple;}
+
+.theHead{position:fixed; top:50px; width:150px; background-color: yellow; z-index:1}
+
+.div1{width:150px; position:absolute; background-color:blue; z-index: 5;}
