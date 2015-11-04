@@ -1,9 +1,16 @@
+#theHead{position:fixed; top:30px; right:50px; width:150px; background-color: yellow; z-index:1}
+
 .p1, .p3{color:green;}
 
 .p2, .p4{color:blue;}
 
 .p5, .p6{color:purple;}
 
-.theHead{position:fixed; top:50px; width:150px; background-color: yellow; z-index:1}
+.divTitle{position:absolute;
+margin: 3px 300px 2000px 700px;
+border: black 3px solid;
+padding: 10px 20px 10px 10px;
+background-color:blue; z-index: 5;}
 
-.div1{width:150px; position:absolute; background-color:blue; z-index: 5;}
+.modify{font-size: 20px; text-transform: capitalize; font-family: "Calibri";}
+.modify p{position:relative; left:200px}
