@@ -1,0 +1,43 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta content="en-us" http-equiv="Content-Language" />
+  <script type="text/javascript" src="IASC1P02JavascriptAssignmentScript.js"></script>
+</head>
+
+<body>
+
+<form name="aForm">
+
+	<p>Enter the names of two numbers from one to five:</p>
+	<input type="text" name="text" id="word1" value="Enter Word" />
+  <input type="text" name="text" id="word2" value="Enter Second Word" /><br />
+
+<p>Please select an operation to perform:</p>
+
+  <!-- <label for="radio1">Addition</label>
+		<input type="radio"  name="button" id="radio1" />
+		<label for="radio2">Subtraction</label>
+			<input type="radio"  name="button" id="radio2" />
+      <label for="radio3">Multiplication</label>
+  			<input type="radio"  name="button" id="radio3" />
+        <label for="radio4">Division</label>
+    			<input type="radio"  name="button" id="radio4" /><br/> -->
+
+          <button type="button" onclick="add()">+</button>
+          <button type="button" onclick="subtract()">-</button>
+          <button type="button" onclick="multiply()">*</button>
+          <button type="button" onclick="divide()">/</button>
+
+<br/>
+			<br /><button type="button" onClick="theNumber()">Submit</button>
+
+</form>
+
+<p>Result:</p>
+<p id="theResult"></p>
+
+</body>
+
+</html>
