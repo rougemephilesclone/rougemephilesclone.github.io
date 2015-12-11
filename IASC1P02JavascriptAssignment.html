@@ -3,41 +3,33 @@
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
   <meta content="en-us" http-equiv="Content-Language" />
+  <title>IASC 1P02 Javascript Assignment</title>
+  <link href="IASC1P02JavascriptAssignmentStyle.css" rel="stylesheet" type="text/css"/>
   <script type="text/javascript" src="IASC1P02JavascriptAssignmentScript.js"></script>
 </head>
 
 <body>
 
-<form name="aForm">
+<p>Enter the names of two numbers from one to five.  Then, select an operation to perform.</p>
 
-	<p>Enter the names of two numbers from one to five:</p>
-	<input type="text" name="text" id="word1" value="Enter Word" />
-  <input type="text" name="text" id="word2" value="Enter Second Word" /><br />
+<form action="demo_form.asp" class="calculator" name="calculatorForm">
 
-<p>Please select an operation to perform:</p>
-
-  <!-- <label for="radio1">Addition</label>
-		<input type="radio"  name="button" id="radio1" />
-		<label for="radio2">Subtraction</label>
-			<input type="radio"  name="button" id="radio2" />
-      <label for="radio3">Multiplication</label>
-  			<input type="radio"  name="button" id="radio3" />
-        <label for="radio4">Division</label>
-    			<input type="radio"  name="button" id="radio4" /><br/> -->
-
-          <button type="button" onclick="add()">+</button>
-          <button type="button" onclick="subtract()">-</button>
-          <button type="button" onclick="multiply()">*</button>
-          <button type="button" onclick="divide()">/</button>
+<div class="display"><input type="text" id="theResult" readonly="readonly"/></div><br/>
+<br/>
+<div class="buttons">
+	<input type="text" class="wordEntry" name="text" id="word1" value="Enter First Word" />
+  <input type="text" class="wordEntry" name="text" id="word2" value="Enter Second Word" /><br/>
+<br/>
+          <button type="button" class="operation" onclick="add()">+</button>
+          <button type="button" class="operation" onclick="subtract()">-</button>
+          <button type="button" class="operation" onclick="multiply()">*</button>
+          <button type="button" class="operation" onclick="divide()">/</button>
 
 <br/>
-			<br /><button type="button" onClick="theNumber()">Submit</button>
+			<br /><button type="button" class="specialButton submit" onclick="theNumber()">Submit</button> <input type="reset" class="specialButton clear" value="Clear"/>
 
+</div>
 </form>
-
-<p>Result:</p>
-<p id="theResult"></p>
-
 </body>
 
 </html>

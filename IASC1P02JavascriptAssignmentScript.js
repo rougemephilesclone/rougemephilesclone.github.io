@@ -61,6 +61,6 @@ function getValue(resolve){
 }
 
 function theNumber(){
-	document.getElementById("theResult").innerHTML=result;
+	document.calculatorForm.theResult.value = result;
 	console.log(result);
 }
