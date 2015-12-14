@@ -17,15 +17,15 @@ function addZero(digit){
 }
 
 function newDoc() {
-    window.location.assign("C:/Users/Liam/Documents/IASC1P02FinalWebsite.html")
+    window.location.assign("http://rougemephilesclone.github.io/IASC1P02FinalWebsite.html")
   }
 
 function newDoc2() {
-    window.location.assign("C:/Users/Liam/Documents/IASC1P02FinalWebsiteSystem.html")
+    window.location.assign("http://rougemephilesclone.github.io/IASC1P02FinalWebsiteSystem.html")
   }
 
 function newDoc3() {
-    window.location.assign("C:/Users/Liam/Documents/IASC1P02FinalWebsiteCharacters.html")
+    window.location.assign("http://rougemephilesclone.github.io/IASC1P02FinalWebsiteCharacters.html")
   }
 
 var picture = new Array(10);
