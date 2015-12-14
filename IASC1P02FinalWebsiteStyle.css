@@ -1,0 +1,124 @@
+html, body {
+    min-height:100%;
+    padding:0;
+    margin:0;
+}
+
+
+#wrapper{
+  display:flex;
+  height:100%;
+}
+
+#header{
+  border:2px darkorange solid;
+	height:100px;
+  width:100%;
+	text-align:center;
+  background-color:mediumturquoise;
+  color:darkorange;
+}
+
+.logo{
+float:left;
+height:100px;
+width:180px;
+}
+
+.navigation{
+  order:1;
+  float:left;
+  color:black;
+  background-color:green;
+  border:black 2px solid;
+  width:200px;
+  padding:10px;
+}
+
+.navButtons{
+  width:120px;
+  height:30px;
+  color:black;
+  background-color: lime;
+}
+
+.content{
+  order:2;
+  float:right;
+  color:white;
+  font-family: "Calibri";
+  background-color:red;
+  border:white 2px solid;
+  width:100%;
+  padding:3px;
+}
+
+
+.p1{
+  width:63%;
+  text-align:center;
+}
+
+.p2{
+  border:white 2px solid;
+  width:63%;
+  padding:3px;
+}
+
+
+.image1{
+  float:right;
+  height:224px;
+  width:400px;
+}
+
+.image2{
+  position:absolute;
+  right:25px;
+  bottom:-54px;
+  float:right;
+  height:224px;
+  width:400px;
+}
+
+.image3{
+  position:absolute;
+  right:25px;
+  bottom:-354px;
+  float:right;
+  height:224px;
+  width:400px;
+}
+
+.image4{
+  height:224px;
+  width:175px;
+}
+
+
+#footer{
+	min-height:50px;
+  border:darkorange 2px solid;
+  width:100%;
+  color:darkorange;
+  background-color:mediumturquoise;
+	clear:both;
+}
+
+.copyright{
+  width:70%;
+  padding:3px;
+}
+
+body{
+	padding:20px;
+	background:navy;
+}
+
+#clock{
+  text-align:right;
+}
+
+#invisible{
+  visibility:hidden;
+}
